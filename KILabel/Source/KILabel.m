@@ -321,7 +321,7 @@
     }
     else if (self.isHighlighted)
     {
-        colour = self.highlightedTextColor;
+        colour = (self.highlightedTextColor ? self.highlightedTextColor : [UIColor lightGrayColor]);
     }
     
     // Setup paragraph attributes
